@@ -89,6 +89,7 @@
 		B5A0C9DA174D8A7C003DD670 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A0C9D9174D8A7C003DD670 /* AVFoundation.framework */; };
 		B5A0C9DC174D8A8B003DD670 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A0C9DB174D8A8B003DD670 /* CoreMedia.framework */; };
 		B5A0C9DF174DD9D3003DD670 /* StreamingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A0C9DE174DD9D3003DD670 /* StreamingView.xib */; };
+		B5D555EB1753D1B300A1F8D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D555EA1753D1B300A1F8D2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -181,6 +182,7 @@
 		B5A0C9D9174D8A7C003DD670 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B5A0C9DB174D8A8B003DD670 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		B5A0C9DE174DD9D3003DD670 /* StreamingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamingView.xib; sourceTree = SOURCE_ROOT; };
+		B5D555EA1753D1B300A1F8D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,6 +321,7 @@
 		B592773B149884C600DB08AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5D555EA1753D1B300A1F8D2 /* Default-568h@2x.png */,
 				B50A32FC1529898600B93275 /* SAMaudioGuide.sqlite */,
 				B50A32DF1528E96900B93275 /* SAMaudioGuide.xcdatamodeld */,
 				B53CA43014DA93C6008F31C9 /* Default@2x.png */,
@@ -461,6 +464,7 @@
 				B58A50FF15335A1000BEEDD4 /* ItemTableViewController.xib in Resources */,
 				B58940C81537EE7D0059FF32 /* customTableViewCell.xib in Resources */,
 				B5A0C9DF174DD9D3003DD670 /* StreamingView.xib in Resources */,
+				B5D555EB1753D1B300A1F8D2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
