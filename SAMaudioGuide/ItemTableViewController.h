@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@class iPhoneStreamingPlayerViewController;
+@class MyStreamingMovieViewController;
 
 @interface ItemTableViewController : UIViewController <UISearchDisplayDelegate, UISearchBarDelegate> {
 @private
@@ -17,7 +17,7 @@
     NSMutableArray *items_;
     NSMutableArray *searchResults_;
     NSString *savedSearchTerm_;
-    iPhoneStreamingPlayerViewController *playerViewController_;
+    MyStreamingMovieViewController *playerViewController_;
 }
 
 @property (nonatomic, retain) NSMutableArray *items;
@@ -25,7 +25,7 @@
 @property (nonatomic, retain) NSMutableArray *searchResults;
 @property (nonatomic, copy) NSString *savedSearchTerm;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (strong, nonatomic) iPhoneStreamingPlayerViewController *playerViewController;
+@property (strong, nonatomic) MyStreamingMovieViewController *playerViewController;
 
 - (void)handleSearchForTerm:(NSString *)searchTerm;
 

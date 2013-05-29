@@ -34,6 +34,7 @@
 
     //nav
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.itemTableViewController];
+    //self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     self.window.rootViewController = self.navigationController;
     
     
@@ -43,6 +44,7 @@
     [self createEditableCopyOfDatabaseIfNeeded];
     
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 

@@ -9,9 +9,8 @@
 #import "AppDelegate.h"
 #import "ItemTableViewController.h"
 #import "Item.h"
-#import "iPhoneStreamingPlayerViewController.h"
 #import "customTableViewCell.h"
-
+#import "MyStreamingMovieViewController.h"
 
 @implementation ItemTableViewController
 
@@ -172,9 +171,9 @@
     else
         item = [items_ objectAtIndex:indexPath.row];
     
-    //Play audio in playerViewController
+    //Present art in playerViewController
     if (!self.playerViewController) {
-        self.playerViewController = [[iPhoneStreamingPlayerViewController alloc] initWithNibName:@"iPhoneStreamingPlayerViewController" bundle:nil];
+        self.playerViewController = [[MyStreamingMovieViewController alloc] initWithNibName:@"StreamingView" bundle:nil];
     }
 
     self.playerViewController.item = item;
