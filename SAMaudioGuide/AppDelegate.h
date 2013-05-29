@@ -23,6 +23,5 @@
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (strong, nonatomic) ItemTableViewController *itemTableViewController;
 
-- (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 @end
